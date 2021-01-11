@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+
+html,
+body {
+  font-family: $body-font;
+  font-size: $font-size-base;
+  line-height: 1.6;
+}
+
+%heading {
+  font-family: $heading-font;
+}
+
+%uppercase {
+  text-transform: uppercase;
+}
+
+.h {
+  &--title,
+  &--heading,
+  &--subheading {
+    @extend %heading;
+  }
+
+  &--title {
+    font-size: $title-size;
+  }
+
+  &--heading {
+    font-size: $font-size-lg;
+  }
+
+  &--subheading {
+    // @extend %subheading;
+    font-size: $font-size-md;
+  }
+
+  &--small {
+    @extend %subheading;
+    font-size: $font-size-base;
+  }
+
+  &--paragraph {
+    font-family: inherit;
+  }
+}

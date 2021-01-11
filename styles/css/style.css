@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+html,
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6; }
+
+.h--title, .h--heading, .h--subheading {
+  font-family: "Spectral", serif; }
+
+.h--small {
+  text-transform: uppercase; }
+
+.h--title {
+  font-size: 4rem; }
+
+.h--heading {
+  font-size: 3rem; }
+
+.h--subheading {
+  font-size: 2rem; }
+
+.h--small {
+  font-size: 1rem; }
+
+.h--paragraph {
+  font-family: inherit; }
