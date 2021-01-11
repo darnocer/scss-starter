@@ -41,7 +41,7 @@ These are starter files for installing Sass to your project.
 - Update and add variables to `/abstract/_variables.scss`
 - Any newly added `.scss` files should be imported into `main.scss`
 
-## Directory Tree
+## Directory Tree :deciduous_tree:
 
 ```bash
 ├─ styles/
