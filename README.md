@@ -1,5 +1,7 @@
 # SCSS Starter Files
 
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
 These are starter files for installing Sass to your project.
 
 ## Installation :gear:
@@ -41,7 +43,7 @@ These are starter files for installing Sass to your project.
 - Update and add variables to `/abstract/_variables.scss`
 - Any newly added `.scss` files should be imported into `main.scss`
 
-## Directory Tree
+## Directory Tree :deciduous_tree:
 
 ```bash
 ├─ styles/
