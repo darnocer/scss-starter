@@ -6,7 +6,7 @@ These are starter files for installing Sass to your project.
 
 ## Installation :gear:
 
-1. From the repo, click the green "Code" button dropdown, adn select download .zip
+1. From the repo, click the green "Code" button dropdown, and select download .zip
 
 2. Paste all of the contents of `scss-starter` folder into your project
 
